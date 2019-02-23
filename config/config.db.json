@@ -1,0 +1,36 @@
+{
+    "game": {
+        "main": {
+            "LocalDev": {
+                "host": "",        
+                "port": 3306,
+                "user": "",
+                "password": "",
+                "database": "",
+                "connectionLimit": 10,
+                "waitForConnections":"false",
+                "multipleStatements": "true"
+            }
+        }
+    },
+    "web": {
+
+        "LocalDev": {
+            "username": "",
+            "password": "",
+            "database": "",
+            "host": "",
+            "dialect": "mysql",
+            "timezone" : "+09:00"
+        }
+    },
+    "redis": {
+
+        "LocalDev": {
+            "port": 6379,
+            "host": "",
+            "family": 4,
+            "db": 0
+        }
+    }
+}

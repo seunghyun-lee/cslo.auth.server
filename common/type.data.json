@@ -1,0 +1,27 @@
+{
+    "DBType": {        
+        "main": 0,
+        "gameShard1": 1,
+        "gameShard2": 2
+    },
+
+    "UserType": {
+        "unknown": 0,
+        "dev" : 1,
+        "guest" : 2,
+        "kakao":  3
+    },
+
+    "GameServer": {
+        "unknown" : 0,
+        "private" : 1,
+        "dev": 2,
+        "stable" : 3
+    },
+
+    "ReceiptPlatform": {
+        "unknown": 0,
+        "google": 1,
+        "apple": 2
+    }
+}

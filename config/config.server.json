@@ -1,0 +1,22 @@
+{
+    "googleApi":{
+        "client_id":"",
+        "client_secret": "",
+        "auth_redirect_uri": "",
+        "login_redirect_uri": ""
+    },
+    "jwtSecret":  "",
+    "kakaoApi": {
+        "headers": {
+            "appId": "",
+            "appSecret": "",
+            "Authorization": "",
+            "ContentType": "application/json"
+        },
+        "urls": {
+            "BetaUrl": "",
+            "LiveUrl": ""
+        }
+    },
+    "aliveSec": 30
+}
